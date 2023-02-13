@@ -1,0 +1,64 @@
+@media screen and (max-width: 400px) {
+  .banner-name {
+    position: absolute;
+    top: 17%;
+    right: 30%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 6px rgb(130, 129, 129);
+  }
+  div.nav-navbar{
+    text-align: left;
+  }
+  .nav-navbar i{
+   
+    display: block;
+  }
+  .nav-navbar a{
+    
+    border-left: none;
+}
+  .about {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .bd-gold-right {
+    border-bottom: 1px solid #d6c08d;
+    border-right: none;
+  }
+  .certificate-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .certificate-content img {
+    width: 500px !important;
+  }
+
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card .thoigian {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .project-card .thoigian p {
+    margin: 5px 0;
+  }
+  
+  #footer span {
+    display: none;
+  }
+}
+
+
